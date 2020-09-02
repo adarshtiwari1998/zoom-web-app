@@ -1,0 +1,119 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+#video-grid{
+display:flex;
+justify-content: center;
+}
+video {
+ height:250px;
+ background-color: black;
+ box-sizing: border-box;
+ border-radius: 8px;
+ box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15);
+ flex: 0 1 740px;
+ margin: 16px 8px 16px 16px;
+ min-width: 248px;
+ overflow: hidden;
+ position: relative;
+
+}
+    
+.main {
+height: 100vh;
+display: flex;
+ }
+
+ .main-left{
+flex:0.8;
+display: flex;
+flex-direction: column;
+
+ }
+ .main-right{
+    flex:0.2;
+ }
+ .main-videos{
+     flex-grow: 1;
+     display: flex;
+     background-color:black;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .main-controls{
+     display:flex;
+     background-color:#1c1e20;
+     color:#d2d2d2;
+     padding:5px;
+     justify-content: space-between;
+ }
+
+ .main-controls-block{
+    display:flex;
+  
+}
+.main-controls-button{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+  
+}
+.main-controls-button i{
+    font-size:24px;
+}
+.main-controls-button:hover{
+    background-color:#343434;
+    border-radius:5px;
+}
+.leave-meeting {
+    color:#eb534b;
+}
+
+
+.main-right{
+    display:flex;
+    flex-direction: column;
+    background-color:#242324;
+    border-left:1px solid #3d3d42;
+    }
+    .main-header{
+        color:#f5f5f5;
+        text-align:center;
+        padding:15px;
+        border-bottom:1px solid #d2d2d2;
+    }
+
+    .main-chat-window{
+        flex-grow: 1;
+        overflow-y: scroll;
+    }
+    .main-message-container{
+      display: flex;
+      padding:22px 12px;
+    }
+    .main-message-container input{
+   flex-grow: 1;
+   background-color: transparent;
+   border:none;
+   color:#f5f5f5;
+      }
+
+      .messages{
+          color:white;
+          list-style: none;
+      }
+      .unmute,.stop{
+          color:red;
+      }
+
+      /* .main-mute-button{
+          font-size:12px;
+      } */
+
