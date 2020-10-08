@@ -9,6 +9,7 @@
 - Add the ability to create message
 - Add mute button
 - Add stop video button
+- and finally deploy in herokuapp.com
 
 
 # live url --> https://zoom-web-app.herokuapp.com/
